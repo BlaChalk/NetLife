@@ -10,6 +10,7 @@
 <body>
     <img class="logo" src="/img/logo.svg" alt="logo">
     <div class="banner">
+        <img class="noise" src="/img/noise.svg" alt="">
         <img id="people1" src="/img/people.svg" alt="people">
         <img id="people2" src="/img/people.svg" alt="people">
         <img id="people3" src="/img/people.svg" alt="people">
