@@ -1,7 +1,7 @@
 $color_background: #eeeeee
 
 *
-    border: solid 1px
+    // border: solid 1px
     position: relative
     font-family: 微軟正黑體
     vertical-align: top
@@ -13,3 +13,126 @@ body, html
     width: 100%
     height: 100%
     background-color: $color_background
+
+.logo
+    top: 2%
+.banner
+    display: block
+    height: 80%
+    width: 100%
+    top: 5%
+    background-color: rgba(#0F3480, 0.87)
+    img
+        display: inline-block
+        position: absolute
+    #people1
+        width: 20%
+        left: 10%
+        animation: TumbleDown1 2s ease infinite
+    #people2
+        width: 5%
+        top: 70%
+        left: 5%
+        transform: rotate(200deg)
+        animation: TumbleDown2 3s ease infinite
+    #people3
+        width: 15%
+        top: 50%
+        left: 40%
+        transform: rotate(90deg)
+        animation: TumbleDown3 2s ease-in -1s infinite
+    #people4
+        width: 10%
+        top: 30%
+        left: 60%
+        transform: rotate(180deg)
+        animation: TumbleDown4 1.5s ease-in -2s infinite
+    #people5
+        width: 13%
+        top: 10%
+        left: 80%
+        transform: rotate(45deg)
+        animation: TumbleDown5 1.8s ease-in -1s infinite
+    #people6
+        width: 10%
+        top: 60%
+        left: 70%
+        transform: rotate(15deg)
+        animation: TumbleDown6 2s ease-in -2s infinite
+    @keyframes TumbleDown1
+        0%
+            opacity: 1
+            top: 0%
+            transform: rotate(0deg)
+        99%
+            opacity: 0
+            top: 30%
+            transform: rotate(90deg)
+        100%
+            opacity: 0
+            top: 0%
+    @keyframes TumbleDown2
+        0%
+            opacity: 1
+            top: 0%
+            transform: rotate(-30deg)
+        95%
+            opacity: 0
+            top: 80%
+            transform: rotate(-180deg)
+        100%
+            opacity: 0
+            top: 0%
+    @keyframes TumbleDown3
+        0%
+            opacity: 1
+            top: 0%
+            transform: rotate(0deg)
+        95%
+            opacity: 0
+            top: 80%
+            transform: rotate(90deg)
+        100%
+            opacity: 0
+            top: 0%
+    @keyframes TumbleDown4
+        0%
+            opacity: 1
+            top: 0%
+            transform: rotate(-60deg)
+        95%
+            opacity: 0
+            top: 80%
+            transform: rotate(-270deg)
+        100%
+            opacity: 0
+            top: 0%
+    @keyframes TumbleDown5
+        0%
+            opacity: 1
+            transform: rotate(30deg)
+        95%
+            opacity: 0
+            top: 80%
+            transform: rotate(120deg)
+        100%
+            opacity: 0
+    @keyframes TumbleDown6
+        0%
+            opacity: 1
+            top: 30%
+            transform: rotate(15deg)
+        95%
+            opacity: 0
+            top: 80%
+            transform: rotate(-70deg)
+        100%
+            opacity: 0
+            top: 30%
+    .notFound
+        display: inline-block
+        position: absolute
+        width: 80%
+        left: 50%
+        bottom: -5%
+        transform: translateX(-50%)
