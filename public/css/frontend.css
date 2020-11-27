@@ -364,13 +364,20 @@ h2 {
 }
 
 #title-3 {
-  width: 35%;
+  width: 45%;
   left: 50%;
   margin: 5% 0%;
   transform: translateX(-50%);
 }
 
 #text-3 {
+  text-align: center;
+  line-height: 36px;
+}
+
+#text-4-2,
+#text-5,
+#text-6 {
   text-align: center;
   line-height: 36px;
 }
@@ -382,5 +389,12 @@ h2 {
   margin-left: 17%;
   text-align: right;
   background: #333333;
+}
+
+.step-img {
+  width: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5%;
 }
 

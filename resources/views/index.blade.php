@@ -46,8 +46,8 @@
                 </div>
             </div>
         </div>
-        <div class="row h-100">
-            <div class="col-sm-12 col-12">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-sm-9 col-12">
                 <div id="section3">
                     <div id="title-3" class="title-bg h-2 title-red">
                         <h2 class="title">「數位成癮」是一種病嗎？</h2>
@@ -61,47 +61,54 @@
                 </div>
             </div>
         </div>
-    </div>
-    {{-- <div class="container fill">
-
-    </div>
-
-    <div class="container fill">
-        <div class="row">
-            <div class="col-sm-9 col-8">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-sm-9 col-12">
                 <div id="section4">
-                    <h4 class="text">目前僅有網路遊戲成癮被世界衛生組織在《國際疾病分 類》（ICD-11）正式列為精神疾病：「遊戲障礙症」（Gaming disorder），定義為一種遊戲行為模式（＂網路或電視遊戲＂）。要診斷出遊戲障礙，其行為必須具有嚴重性，導致個人、家庭社會、教育、職業或其他重要功能領域重大損害。通常至少會持續12個月。</h4>
-                    <p>遊戲障礙症的特徵為：<br>
+                    <h4 class="text">目前僅有網路遊戲成癮被世界衛生組織在《國際疾病分類》<br>
+                        （ICD-11）正式列為精神疾病：「遊戲障礙症」（Gaming disorder），定義為一種遊戲行為模式（＂網路或電視遊戲＂）。要診斷出遊戲障礙，其行為必須具有嚴重性，導致個人、家庭社會、教育、職業或其他重要功能領域重大損害。通常至少會持續12個月。</h4>
+                    <h4 id="text-4-2" class="text">遊戲障礙症的特徵為：<br>
                         1.	玩遊戲的控制力受損<br>
                         2.	生活以電玩為優先，忽略其他興趣和日常活動。<br>
                         3.	即使造成負面影響，仍持續增加打電玩時間。
-                    </p>
+                    </h4>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container fill">
-        <div class="row">
-            <div class="col-sm-9 col-8">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-sm-9 col-12">
                 <div id="section5">
-                    <h4 class="text">「數位成癮」會造成什麼影響呢？
+                    <h4 id="text-5" class="text">「數位成癮」會造成什麼影響呢？<br>
                         每個人使用數位產品的目的和用途不一樣，因此成癮的原因也不盡相同，數位成癮帶來的影響大致可以分為層面身理和心理層面，例如：有些人因工作不得不長時間依賴手機，導致自己不時時刻刻關注通知就會渾身不舒服；有些人在現實中得不到關愛，而將情感投注在虛擬世界的交流。其中又以視力衰退、生活作息錯亂、無法專注、社交障礙、家庭溝通不良最為常見。
                     </h4>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container fill">
-        <div class="row">
-            <div class="col-sm-9 col-8">
+        <div class="row h-50 align-items-center justify-content-center">
+            <div class="col-sm-9 col-12">
                 <div id="section6">
-                    <h4 class="text">「數位成癮」該如何預防呢？
+                    <h4 id="text-6" class="text">「數位成癮」該如何預防呢？
                         預防數位成癮最好的方法是以個人為出發點，自行檢視自己的使用習慣，自行找到適合自己的使用模式。而預防的方法依序分為四個步驟：觀察、分析、規劃、執行。
                     </h4>
+                    <div class="row h-50">
+                        <div class="col-sm-6 col-12">
+                            <img class="step-img" src="/img/observation.svg" alt="observation">
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <img class="step-img" src="/img/planning.svg" alt="planning">
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <img class="step-img" src="/img/analysis.svg" alt="analysis">
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <img class="step-img" src="/img/execution.svg" alt="execution">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    {{--
+
     <div class="container fill">
         <div class="row">
             <div class="col-sm-9 col-8">
