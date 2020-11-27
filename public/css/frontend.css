@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 * {
-  border: solid 1px;
   position: relative;
   font-family: 微軟正黑體;
   vertical-align: top;
@@ -336,6 +335,7 @@ h2 {
 
 .title-bg {
   width: 55%;
+  background-color: #0F3480;
 }
 
 .title-red {
@@ -370,6 +370,23 @@ h2 {
   transform: translateX(-50%);
 }
 
+#title-7-1 {
+  width: 20%;
+  margin: 5% 0% 0% 5%;
+}
+
+#title-7-2 {
+  width: 20%;
+  margin: 5% 0% 0% 5%;
+}
+
+#title-9 {
+  width: 15%;
+  left: 50%;
+  margin: 5% 0%;
+  transform: translateX(-50%);
+}
+
 #text-3 {
   text-align: center;
   line-height: 36px;
@@ -377,7 +394,8 @@ h2 {
 
 #text-4-2,
 #text-5,
-#text-6 {
+#text-6,
+#text-8 {
   text-align: center;
   line-height: 36px;
 }
@@ -392,7 +410,7 @@ h2 {
 }
 
 .step-img {
-  width: 40%;
+  width: 35%;
   left: 50%;
   transform: translateX(-50%);
   margin: 5%;

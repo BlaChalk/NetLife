@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-        <div class="row h-50 align-items-center justify-content-center">
+        <div class="row h-100 align-items-center justify-content-center">
             <div class="col-sm-9 col-12">
                 <div id="section6">
                     <h4 id="text-6" class="text">「數位成癮」該如何預防呢？
@@ -106,38 +106,36 @@
                 </div>
             </div>
         </div>
-    </div>
-    {{--
-
-    <div class="container fill">
-        <div class="row">
-            <div class="col-sm-9 col-8">
+        <div class="row h-100">
+            <div class="col-sm-8 col-12">
                 <div id="section7">
-                    <h2 class="title">關於我們</h2>
+                    <div id="title-7-1" class="title-bg h-2">
+                        <h2 class="title">關於我們</h2>
+                    </div>
                     <h4 class="text">我就如同一艘小船行經在名為數位科技的水域上，水帶給我們方便，也能將我們覆滅。我們想利用網站有系統地呈現一套針對『數位成癮』的學習資源，以提升家長與孩子對數位成癮的認知，一起學習健康的使用習慣。讓家長放心孩子們使用數位科技，孩子擁有更豐富的學習資源。</h4>
-                    <h2 class="title">理念誕生</h2>
-                    <h4 class="text">在數位時代成長的我們，比父母輩擁有更多的資源可以自由學習，但數位的世界充滿豐富刺激的體驗，孩子們容易被受吸引，甚至養成不當的使用習慣。父母們常選擇極端的方式禁止孩子使用，經常導致嚴重的家庭問題，甚至讓孩子們失去一個學習的管道。我們希望透過資源整合的方式，提升家長與孩子對於數位成癮的認知，共同學習數位健康的的重要。</h4>
                 </div>
             </div>
+            <div class="col-sm-8 col-12 ml-sm-5">
+                <div id="title-7-2" class="title-bg h-2">
+                    <h2 class="title">理念誕生</h2>
+                </div>
+                <h4 class="text">在數位時代成長的我們，比父母輩擁有更多的資源可以自由學習，但數位的世界充滿豐富刺激的體驗，孩子們容易被受吸引，甚至養成不當的使用習慣。父母們常選擇極端的方式禁止孩子使用，經常導致嚴重的家庭問題，甚至讓孩子們失去一個學習的管道。我們希望透過資源整合的方式，提升家長與孩子對於數位成癮的認知，共同學習數位健康的的重要。</h4>
+            </div>
         </div>
-    </div>
-    <div class="container fill">
-        <div class="row">
-            <div class="col-sm-9 col-8">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-sm-9 col-12">
                 <div id="section8">
-                    <h4 class="text">『奈特人生』的由來<br>
+                    <h4 id="text-8" class="text">『奈特人生』的由來<br>
                         『奈特』，意旨『internet/net』。<br>
                         在國家政策的推動下，網路普及率逐年攀高，促使台灣趨向數位化社會發展。網路在日常生活中處處可見，我們一生幾乎脫離不了網路。如何在現實與虛擬之間取得平和，是你我都需要要重視的問題。
                     </h4>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container fill">
-        <div class="row">
-            <div class="col-12">
+        <div class="row h-100">
+            <div class="col-sm-12 col-12">
                 <div id="section9">
-                    <div class="title-bg">
+                    <div id="title-9" class="title-bg h-2">
                         <h2 class="title">組員介紹</h2>
                     </div>
                     <div class="row">
@@ -154,6 +152,14 @@
                 </div>
             </div>
         </div>
+    </div>
+    {{--
+
+    <div class="container fill">
+
+    </div>
+    <div class="container fill">
+
     </div> --}}
 </body>
 </html>
