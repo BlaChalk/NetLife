@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/frontend.css">
 </head>
 <script src="/js/app.js"></script>
+<script src="/js/frontend.js"></script>
 <body>
     <div class="container h-100">
         <div class="row h-100">
