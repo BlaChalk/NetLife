@@ -20,6 +20,13 @@ body, html
 h2
     font-weight: bold
 
+.Container
+  margin-right: auto
+  margin-left: auto
+  padding-right: 15px
+  padding-left: 15px
+  width: 100%
+  overflow: hidden
 .logo
     width: 100%
     top: 2%
@@ -205,3 +212,43 @@ h2
     left: 50%
     transform: translateX(-50%)
     margin: 5%
+
+// 裝飾圖案
+.circle
+    width: 300px
+    height: 300px
+    border-radius: 100%
+    display: inline-block
+    position: absolute
+    // background-color: $color_title
+.circle-1
+    left: -15%
+    top: 90%
+    & circle
+        fill: $color_title
+
+.rectangle
+    width: 150px
+    height: 600px
+    border-radius: 50%
+    display: inline-block
+    position: absolute
+    background-color: $color_title
+.rectangle-1
+    right: -35%
+    top: -25%
+    transform: rotate(45deg)
+    animation: ZoomAndRotate 2.5s ease infinite
+
+@keyframes ZoomAndRotate
+    0%
+        opacity: 0.2
+        transform: rotate(45deg)
+    30%
+        transform: rotate(75deg)
+    75%
+        opacity: 1
+        transform: rotate(15deg)
+    100%
+        opacity: 0.2
+        transform: rotate(45deg)

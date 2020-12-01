@@ -65,3 +65,5 @@ $(window).scroll(function () {
         });
     }
 });
+
+$(".decoration").css("width", window.innerWidth);

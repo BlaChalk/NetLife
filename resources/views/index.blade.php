@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/frontend.css">
 </head>
-<script src="/js/app.js"></script>
-<script src="/js/frontend.js"></script>
+
 <body>
     <div class="container h-100">
         <div class="row h-100">
@@ -25,6 +24,8 @@
                 <img class="notFound" src="/img/404.svg" alt="404">
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100">
             <div class="col-sm-9 col-12">
                 <div id="section1">
@@ -32,9 +33,17 @@
                         <h2 class="title">您知道什麼是「數位成癮」嗎？</h2>
                     </div>
                     <h4 class="text">數位成癮，泛指過度使用數位內容相關的實體或非實體的產品，如：手機、平板、電腦、虛擬體感遊戲、智慧手錶、智慧助理…等。當使用者過度使用上述產品，而導致身心健康、個人學業、人際關係、家庭互動或工作表現等出現負面影響。這種不健康的使用習慣都稱之為「數位成癮」。</h4>
+                    <svg class="circle circle-1" viewbox="-50 -50 100 100">
+                        <circle cx="0" cy="0" r="15">
+                            <animate attributeName="r" dur="3s" values="15;30;15" repeatCount="indefinite"></animate>
+                          </circle>
+                    </svg>
+                    <div class="rectangle rectangle-1"></div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100">
             <div class="effect">
             </div>
@@ -47,6 +56,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100 align-items-center justify-content-center">
             <div class="col-sm-9 col-12">
                 <div id="section3">
@@ -62,6 +73,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100 align-items-center justify-content-center">
             <div class="col-sm-9 col-12">
                 <div id="section4">
@@ -75,6 +88,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100 align-items-center justify-content-center">
             <div class="col-sm-9 col-12">
                 <div id="section5">
@@ -84,6 +99,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100 align-items-center justify-content-center">
             <div class="col-sm-9 col-12">
                 <div id="section6">
@@ -107,6 +124,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100">
             <div class="col-sm-8 col-12">
                 <div id="section7">
@@ -122,7 +141,18 @@
                 </div>
                 <h4 class="text">在數位時代成長的我們，比父母輩擁有更多的資源可以自由學習，但數位的世界充滿豐富刺激的體驗，孩子們容易被受吸引，甚至養成不當的使用習慣。父母們常選擇極端的方式禁止孩子使用，經常導致嚴重的家庭問題，甚至讓孩子們失去一個學習的管道。我們希望透過資源整合的方式，提升家長與孩子對於數位成癮的認知，共同學習數位健康的的重要。</h4>
             </div>
+            <svg viewBox="0 0 160 160" width="160" height="160">
+                <circle cx="80" cy="80" r="50" fill="#0F3480"/>
+                <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                  <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#FFF">
+                    <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+                  </path>
+                </g>
+                <path d="M 50,0 A 50,50 0 0,0 -50,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" />
+              </svg>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100 align-items-center justify-content-center">
             <div class="col-sm-9 col-12">
                 <div id="section8">
@@ -133,6 +163,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="Container h-100">
         <div class="row h-100">
             <div class="col-sm-12 col-12">
                 <div id="section9">
@@ -154,13 +186,8 @@
             </div>
         </div>
     </div>
-    {{--
-
-    <div class="container fill">
-
-    </div>
-    <div class="container fill">
-
-    </div> --}}
 </body>
+
+<script src="/js/app.js"></script>
+<script src="/js/frontend.js"></script>
 </html>
