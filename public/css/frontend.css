@@ -612,3 +612,20 @@ h2 {
   }
 }
 
+.introductionImg {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.introductionName {
+  padding: 10%;
+  color: #0F3480;
+  text-align: center;
+}
+
+.introductionContent {
+  color: #0F3480;
+  text-align: center;
+}
+

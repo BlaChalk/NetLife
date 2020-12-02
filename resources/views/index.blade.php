@@ -190,13 +190,19 @@
                     </div>
                     <div class="row">
                         <div class="col-4">
-                            <img src="/img/KY.svg" alt="">
+                            <img class="introductionImg" src="/img/KY.svg" alt="">
+                            <h3 class="introductionName">王功彥</h3>
+                            <h3 class="introductionContent">視覺設計</h3>
                         </div>
                         <div class="col-4">
-                            <img src="/img/YL.svg" alt="">
+                            <img class="introductionImg" src="/img/YL.svg" alt="">
+                            <h3 class="introductionName">林佑蓉</h3>
+                            <h3 class="introductionContent">企劃撰寫</h3>
                         </div>
                         <div class="col-4">
-                            <img src="/img/SY.svg" alt="">
+                            <img class="introductionImg" src="/img/SY.svg" alt="">
+                            <h3 class="introductionName">方脩硯</h3>
+                            <h3 class="introductionContent">網頁開發</h3>
                         </div>
                     </div>
                 </div>
