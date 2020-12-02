@@ -629,3 +629,36 @@ h2 {
   text-align: center;
 }
 
+#section0 {
+  height: 105%;
+  transition-duration: 1.2s;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8,
+#section9 {
+  transition-duration: 1.2s;
+}
+
+#section1 .row,
+#section2 .row,
+#section3 .row,
+#section4 .row,
+#section5 .row,
+#section6 .row,
+#section7 .row,
+#section8 .row,
+#section9 .row {
+  display: none;
+}
+
+.row {
+  transition-duration: 1s;
+}
+
