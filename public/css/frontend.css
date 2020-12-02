@@ -442,6 +442,15 @@ h2 {
   fill: #0F3480;
 }
 
+.circle-2 {
+  left: -20%;
+  top: -150%;
+}
+
+.circle-2 circle {
+  fill: #0F3480;
+}
+
 .rectangle {
   width: 150px;
   height: 600px;
@@ -457,6 +466,14 @@ h2 {
   transform: rotate(45deg);
   -webkit-animation: ZoomAndRotate 2.5s ease infinite;
           animation: ZoomAndRotate 2.5s ease infinite;
+}
+
+.rectangle-2 {
+  right: -40%;
+  bottom: -50%;
+  transform: rotate(90deg);
+  -webkit-animation: ZoomAndRotate-2 2.5s ease infinite;
+          animation: ZoomAndRotate-2 2.5s ease infinite;
 }
 
 @-webkit-keyframes ZoomAndRotate {
@@ -498,6 +515,100 @@ h2 {
   100% {
     opacity: 0.2;
     transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes ZoomAndRotate-2 {
+  0% {
+    opacity: 0.2;
+    transform: rotate(90deg);
+  }
+
+  15% {
+    transform: rotate(75deg);
+  }
+
+  75% {
+    right: -50%;
+    opacity: 1;
+    transform: rotate(15deg);
+  }
+
+  100% {
+    opacity: 0.2;
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes ZoomAndRotate-2 {
+  0% {
+    opacity: 0.2;
+    transform: rotate(90deg);
+  }
+
+  15% {
+    transform: rotate(75deg);
+  }
+
+  75% {
+    right: -50%;
+    opacity: 1;
+    transform: rotate(15deg);
+  }
+
+  100% {
+    opacity: 0.2;
+    transform: rotate(90deg);
+  }
+}
+
+#questionMark {
+  width: 10%;
+  position: absolute;
+}
+
+#plaint {
+  width: 3%;
+  position: absolute;
+}
+
+#svg-1 {
+  stroke: #536B78;
+  stroke-width: 3px;
+}
+
+#svg-1 circle {
+  fill: #0F3480;
+}
+
+#svg-1 rect {
+  fill: none;
+}
+
+#svg-peoples {
+  width: 50%;
+  position: absolute;
+  -webkit-animation: rotate 30s ease-in infinite;
+          animation: rotate 30s ease-in infinite;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 
