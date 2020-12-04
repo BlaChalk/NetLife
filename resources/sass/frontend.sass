@@ -2,6 +2,7 @@ $color_background: #eeeeee
 $color_title: #0F3480
 $color_text: #536B78
 $color_red: #8B000F
+$color_purple: #AAA0C9
 
 *
     // border: solid 1px
@@ -209,32 +210,57 @@ h2
     text-align: right
     background: #333333
 
+.step-main
+    // justify-content: center
+    // align-items: center
+    flex-wrap: wrap
 .step
     display: flex
-    justify-content: start
+    flex: 1 0 50%
+    justify-content: flex-start
     align-items: center
 .block
     visibility: hidden
-    width: 30%
-    height: 40%
-    border-radius: 15%
+    width: 350px
+    height: 80px
+    border-radius: 5%
     margin-left: 2%
+    transition-duration: 0.5s
+    transition-delay: 0.3s
+    & h5, & p
+        top: 20px
+        margin: 2%
+        opacity: 0
+        visibility: hidden
+        color: $color_background
+        transition-duration: 0.4s
+    & p
+        transition-delay: 0.2s
 
 .step-img
-    width: 35%
+    width: 30%
     margin: 2%
     cursor: pointer
     &:hover
         transform: scale(1.1)
-        transition-duration: 1s
+        transition-duration: 0.7s
     &:hover ~.block
-        // display: block
         visibility: visible
-        width: 55%
+        width: 60%
         height: 80%
-        left: 0%
-        background-color: #999
-        transition-duration: 1s
+        background-color: $color_purple
+        transition-delay: 0s
+    &:hover ~.block>h5
+        top: 0px
+        opacity: 1
+        visibility: visible
+        transition-delay: 0.2s
+    &:hover ~.block>p
+        top: 0px
+        opacity: 1
+        visibility: visible
+        transition-delay: 0.5s
+
 
 // 裝飾圖案
 .circle

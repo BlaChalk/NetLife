@@ -423,38 +423,72 @@ h2 {
   background: #333333;
 }
 
+.step-main {
+  flex-wrap: wrap;
+}
+
 .step {
   display: flex;
-  justify-content: start;
+  flex: 1 0 50%;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .block {
   visibility: hidden;
-  width: 30%;
-  height: 40%;
-  border-radius: 15%;
+  width: 350px;
+  height: 80px;
+  border-radius: 5%;
   margin-left: 2%;
+  transition-duration: 0.5s;
+  transition-delay: 0.3s;
+}
+
+.block h5,
+.block p {
+  top: 20px;
+  margin: 2%;
+  opacity: 0;
+  visibility: hidden;
+  color: #eeeeee;
+  transition-duration: 0.4s;
+}
+
+.block p {
+  transition-delay: 0.2s;
 }
 
 .step-img {
-  width: 35%;
+  width: 30%;
   margin: 2%;
   cursor: pointer;
 }
 
 .step-img:hover {
   transform: scale(1.1);
-  transition-duration: 1s;
+  transition-duration: 0.7s;
 }
 
 .step-img:hover ~ .block {
   visibility: visible;
-  width: 55%;
+  width: 60%;
   height: 80%;
-  left: 0%;
-  background-color: #999;
-  transition-duration: 1s;
+  background-color: #AAA0C9;
+  transition-delay: 0s;
+}
+
+.step-img:hover ~ .block > h5 {
+  top: 0px;
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.2s;
+}
+
+.step-img:hover ~ .block > p {
+  top: 0px;
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
 }
 
 .circle {

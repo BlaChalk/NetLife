@@ -113,22 +113,34 @@
                 <h4 id="text-6" class="text">「數位成癮」該如何預防呢？
                     預防數位成癮最好的方法是以個人為出發點，自行檢視自己的使用習慣，自行找到適合自己的使用模式。而預防的方法依序分為四個步驟：觀察、分析、規劃、執行。
                 </h4>
-                <div class="row h-50" style="display: flex">
-                    <div class="col-sm-6 col-12 step">
+                <div class="row h-50 step-main" style="display: flex">
+                    <div class="step">
                         <img class="step-img" src="/img/observation.svg" alt="observation">
-                        <div class="block"></div>
+                        <div class="block">
+                            <h5>觀察</h5>
+                            <p>紀錄自己的使用時長，觀察自己的使用模式。大致觀察１個月即可。</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12 step">
+                    <div class="step">
                         <img class="step-img" src="/img/planning.svg" alt="planning">
-                        <div class="block"></div>
+                        <div class="block">
+                            <h5>分析</h5>
+                            <p>分析自己的使用習慣，找出自己的使用習慣，發現自己沉迷的關鍵點，審視自己目前的使用習慣是否合理。</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12 step">
+                    <div class="step">
                         <img class="step-img" src="/img/analysis.svg" alt="analysis">
-                        <div class="block"></div>
+                        <div class="block">
+                            <h5>規劃</h5>
+                            <p>根據分析結果，規劃合適的使用時間表，照表操課督促自己改變使用習慣。</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12 step">
+                    <div class="step">
                         <img class="step-img" src="/img/execution.svg" alt="execution">
-                        <div class="block"></div>
+                        <div class="block">
+                            <h5>執行</h5>
+                            <p>一人執行總是特別寂寞，但你可以把執行項目當作每日打卡，培養其他興趣，多與親友接觸使自己分心。也可以尋找夥伴一起加油。</p>
+                        </div>
                     </div>
                 </div>
             </div>
