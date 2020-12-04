@@ -23,6 +23,7 @@ body, html
 h2
     font-weight: bold
 
+
 .Container
   margin-right: auto
   margin-left: auto
@@ -39,12 +40,62 @@ h2
     height: 80%
     margin: 2% 0%
     background-color: rgba(#0F3480, 0.87)
+    .ybox
+        width: 500px
+        opacity: 0.9
+        background-color: $color_background
+        transition-duration: 0.2s
+    .ybox--header
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+    .ybox__hide
+        opacity: 0
+        .ybox__close
+            cursor: default
+            &::before, &::after
+                cursor: default
+    // .active
+    //     -webkit-transition: all .15s ease-in
+    //     transition: all .15s ease-in
+    //     opacity: 0.95!important
     .noise
         width: 50%
         left: 50%
         bottom: 5%
         transform: translateX(-50%)
-
+    .ybox__close
+        position: absolute
+        top: -20px
+        right: -20px
+        height: 40px
+        width: 40px
+        cursor: pointer
+        border-radius: 50%
+        border: solid 1px #333
+        background: $color_background
+        opacity: 0.7
+        &::before
+            height: 30px
+            width: 2px
+            left: 50%
+            top: 50%
+            background: #333
+            content: ""
+            position: absolute
+            cursor: pointer
+            transform: translate(-50%, -50%) rotate(45deg)
+        &::after
+            height: 30px
+            width: 2px
+            left: 50%
+            top: 50%
+            background: #333
+            content: ""
+            position: absolute
+            cursor: pointer
+            transform: translate(-50%, -50%) rotate(-45deg)
     img
         display: inline-block
         position: absolute

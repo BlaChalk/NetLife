@@ -22,6 +22,10 @@
                 <img id="people5" src="/img/people.svg" alt="people">
                 <img id="people6" src="/img/people.svg" alt="people">
                 <img class="notFound" src="/img/404.svg" alt="404">
+                <div id="ybox--1" class="ybox ybox--header active">
+                    <span class="ybox__close"></span>
+                    <h4 class="text">隨著數位科技的進步，數位化社會已成為全球趨勢。在我國政府的政策積極推動下，台灣的網路普及率逐年攀升，國人已逐漸習慣使用數位科技解決生活中的問題，在潛移默化之中對數位科技產生高強度的依賴性，已改變我們的生活模式。當使用者擁有不健康的使用習慣時，容易造成現實生活與虛擬世界之間出現嚴重失衡，影響自身心理和生理的健康，以及家庭、學業或職場不順等問題。如何健康的使用數位科技是當代人們需要重視的議題。</h4>
+                </div>
             </div>
         </div>
     </div>

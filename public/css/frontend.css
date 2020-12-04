@@ -50,11 +50,75 @@ h2 {
   background-color: rgba(15, 52, 128, 0.87);
 }
 
+.banner .ybox {
+  width: 500px;
+  opacity: 0.9;
+  background-color: #eeeeee;
+  transition-duration: 0.2s;
+}
+
+.banner .ybox--header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner .ybox__hide {
+  opacity: 0;
+}
+
+.banner .ybox__hide .ybox__close {
+  cursor: default;
+}
+
+.banner .ybox__hide .ybox__close::before,
+.banner .ybox__hide .ybox__close::after {
+  cursor: default;
+}
+
 .banner .noise {
   width: 50%;
   left: 50%;
   bottom: 5%;
   transform: translateX(-50%);
+}
+
+.banner .ybox__close {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 1px #333;
+  background: #eeeeee;
+  opacity: 0.7;
+}
+
+.banner .ybox__close::before {
+  height: 30px;
+  width: 2px;
+  left: 50%;
+  top: 50%;
+  background: #333;
+  content: "";
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.banner .ybox__close::after {
+  height: 30px;
+  width: 2px;
+  left: 50%;
+  top: 50%;
+  background: #333;
+  content: "";
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .banner img {
