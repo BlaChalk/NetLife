@@ -414,6 +414,30 @@ h2 {
   transform: translateX(-50%);
 }
 
+.banner .intro-title {
+  width: 7%;
+}
+
+.banner #nai {
+  top: 5%;
+  left: 5%;
+}
+
+.banner #te {
+  bottom: 5%;
+  left: 5%;
+}
+
+.banner #rien {
+  top: 5%;
+  right: 5%;
+}
+
+.banner #shieng {
+  bottom: 5%;
+  right: 5%;
+}
+
 .title-bg {
   width: 55%;
   background-color: #0F3480;
