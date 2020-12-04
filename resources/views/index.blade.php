@@ -43,12 +43,14 @@
                     </circle>
                 </svg>
                 <div class="rectangle rectangle-1"></div>
+                <img id="gif-1" src="/img/01.gif" alt="">
             </div>
         </div>
     </div>
     <div id="section2" class="Container">
         <div class="row h-100">
             <div class="effect">
+                <img id="gif-2" src="/img/02.gif" alt="">
             </div>
             <div class="col-sm-9 col-12">
                 <div id="title-2" class="title-bg h-2">
@@ -91,6 +93,42 @@
     </div>
     <div id="section4" class="Container">
         <div class="row h-100 align-items-center justify-content-center">
+            <svg id="clock" width="200" height="200">
+
+                <filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+                    <feOffset in="blur" dx="2.5" dy="2.5"/>
+                </filter>
+
+                <g>
+                    <circle id="shadow" style="fill:rgba(0,0,0,0.1)" cx="97" cy="100" r="87" filter="url(#innerShadow)"></circle>
+                    <circle id="circle" style="stroke: #FFF; stroke-width: 12px; fill:#AAA0C9" cx="100" cy="100" r="80"></circle>
+                </g>
+                <g>
+                    <line x1="100" y1="100" x2="100" y2="55" transform="rotate(80 100 100)" style="stroke-width: 3px; stroke: #fffbf9;" id="hourhand">
+                        <animatetransform attributeName="transform"
+                                          attributeType="XML"
+                                          type="rotate"
+                                          dur="43200s"
+                                          repeatCount="indefinite"/>
+                    </line>
+                    <line x1="100" y1="100" x2="100" y2="40" style="stroke-width: 4px; stroke: #fdfdfd;" id="minutehand">
+                        <animatetransform attributeName="transform"
+                                          attributeType="XML"
+                                          type="rotate"
+                                          dur="3600s"
+                                          repeatCount="indefinite"/>
+                    </line>
+                    <line x1="100" y1="100" x2="100" y2="30" style="stroke-width: 2px; stroke: #C1EFED;" id="secondhand">
+                        <animatetransform attributeName="transform"
+                                          attributeType="XML"
+                                          type="rotate"
+                                          dur="60s"
+                                          repeatCount="indefinite"/>
+                    </line>
+                </g>
+                {{-- <circle id="center" style="fill:#128A86; stroke: #C1EFED; stroke-width: 2px;" cx="100" cy="100" r="3"></circle> --}}
+            </svg>
             <div class="col-sm-9 col-12">
                 <h4 class="text">目前僅有網路遊戲成癮被世界衛生組織在《國際疾病分類》<br>
                     （ICD-11）正式列為精神疾病：「遊戲障礙症」（Gaming disorder），定義為一種遊戲行為模式（＂網路或電視遊戲＂）。要診斷出遊戲障礙，其行為必須具有嚴重性，導致個人、家庭社會、教育、職業或其他重要功能領域重大損害。通常至少會持續12個月。</h4>
