@@ -19,7 +19,6 @@ document.body.onmousewheel = function (e) {
 };
 
 $('.ybox__close').click(function () {
-    console.log('ttt');
    $('#ybox--1').addClass('ybox__hide');
 });
 

@@ -1,13 +1,15 @@
 $color_background: #eeeeee
 $color_title: #0F3480
 $color_text: #536B78
+$coler_important_mark: #243E36
 $color_red: #8B000F
 $color_purple: #AAA0C9
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap')
 *
     // border: solid 1px
     position: relative
-    font-family: 微軟正黑體
+    font-family: hanamin, Noto Sans TC, sans-serif
     vertical-align: top
     user-select: none
 
@@ -31,6 +33,9 @@ h2
   padding-left: 15px
   width: 100%
   overflow: hidden
+.introduction-text
+    color: $coler_important_mark!important
+    padding: 7% 5%!important
 .logo
     width: 100%
     top: 2%
@@ -220,9 +225,15 @@ h2
     padding: 0% 1%
     color: $color_background
     text-align: center
+    letter-spacing: 3px
 .text
     padding: 5%
     color: $color_text
+    line-height: 32px
+    letter-spacing: 4px
+    transform: scale(1, 1.12)
+.text-7
+    padding: 2% 2% 2% 5%!important
 #title-1
     margin: 5% 0% 0% 5%
     background-color: $color_title
@@ -239,7 +250,7 @@ h2
     margin: 5% 0% 0% 5%
 #title-7-2
     width: 20%
-    margin: 5% 0% 0% 5%
+    margin: 0% 0% 0% 5%
 #title-9
     width: 15%
     left: 50%
