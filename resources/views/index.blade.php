@@ -113,18 +113,22 @@
                 <h4 id="text-6" class="text">「數位成癮」該如何預防呢？
                     預防數位成癮最好的方法是以個人為出發點，自行檢視自己的使用習慣，自行找到適合自己的使用模式。而預防的方法依序分為四個步驟：觀察、分析、規劃、執行。
                 </h4>
-                <div class="row h-50">
-                    <div class="col-sm-6 col-12">
+                <div class="row h-50" style="display: flex">
+                    <div class="col-sm-6 col-12 step">
                         <img class="step-img" src="/img/observation.svg" alt="observation">
+                        <div class="block"></div>
                     </div>
-                    <div class="col-sm-6 col-12">
+                    <div class="col-sm-6 col-12 step">
                         <img class="step-img" src="/img/planning.svg" alt="planning">
+                        <div class="block"></div>
                     </div>
-                    <div class="col-sm-6 col-12">
+                    <div class="col-sm-6 col-12 step">
                         <img class="step-img" src="/img/analysis.svg" alt="analysis">
+                        <div class="block"></div>
                     </div>
-                    <div class="col-sm-6 col-12">
+                    <div class="col-sm-6 col-12 step">
                         <img class="step-img" src="/img/execution.svg" alt="execution">
+                        <div class="block"></div>
                     </div>
                 </div>
             </div>

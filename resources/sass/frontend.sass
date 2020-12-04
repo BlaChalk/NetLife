@@ -16,6 +16,8 @@ body, html
     width: 100%
     height: 100%
     background-color: $color_background
+    ::-webkit-scrollbar
+        display: none
 
 h2
     font-weight: bold
@@ -207,11 +209,32 @@ h2
     text-align: right
     background: #333333
 
+.step
+    display: flex
+    justify-content: start
+    align-items: center
+.block
+    visibility: hidden
+    width: 30%
+    height: 40%
+    border-radius: 15%
+    margin-left: 2%
+
 .step-img
     width: 35%
-    left: 50%
-    transform: translateX(-50%)
-    margin: 5%
+    margin: 2%
+    cursor: pointer
+    &:hover
+        transform: scale(1.1)
+        transition-duration: 1s
+    &:hover ~.block
+        // display: block
+        visibility: visible
+        width: 55%
+        height: 80%
+        left: 0%
+        background-color: #999
+        transition-duration: 1s
 
 // 裝飾圖案
 .circle
@@ -221,13 +244,13 @@ h2
     display: inline-block
     position: absolute
 .circle-1
-    left: -15%
-    top: 90%
+    left: -10%
+    top: 50%
     & circle
         fill: $color_title
 .circle-2
     left: -20%
-    top: -150%
+    top: -120%
     & circle
         fill: $color_title
 
@@ -311,7 +334,7 @@ h2
     text-align: center
 
 #section0
-    height: 105%
+    height: 101%
     transition-duration: 1.2s
 #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9
     transition-duration: 1.2s
