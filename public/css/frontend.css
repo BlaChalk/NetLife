@@ -448,10 +448,11 @@ h2 {
 }
 
 .title {
-  padding: 0% 1%;
+  padding: 5px;
   color: #eeeeee;
   text-align: center;
   letter-spacing: 3px;
+  transform: scale(1, 1.12);
 }
 
 .text {
@@ -523,7 +524,7 @@ h2 {
 #gif-1 {
   width: 40%;
   float: right;
-  margin: 0% 5%;
+  margin: 0% -7% 0% 5%;
 }
 
 #gif-2 {
@@ -634,6 +635,8 @@ h2 {
 }
 
 .rectangle-1 {
+  width: 150px;
+  height: 500px;
   right: -35%;
   top: -25%;
   transform: rotate(45deg);
