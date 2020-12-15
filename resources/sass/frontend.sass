@@ -4,7 +4,7 @@ $color_text: #536B78
 $coler_important_mark: #243E36
 $color_red: #8B000F
 $color_purple: #AAA0C9
-
+$font_size: 12px
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap')
 *
     // border: solid 1px
@@ -37,8 +37,30 @@ h2
     color: $coler_important_mark!important
     padding: 7% 5%!important
 .logo
-    width: 100%
+    width: 5%
     top: 2%
+    left: -2%
+.line
+    width: 23%
+    top: 2%
+.nav
+    position: absolute
+    right: 0%
+    a
+        display: inline-block
+        text-decoration: none
+        font-weight: bold
+        margin: 35px 20px 15px 20px
+        transform: scale(1, 1.12)
+        letter-spacing: 4px
+        color: $coler_important_mark
+        font-size: $font_size*1.5
+        border-bottom: solid 1.5px $color_title
+        // padding-bottom: 3px
+        &:hover
+            cursor: pointer
+            border-bottom: solid 2px transparent
+            border-image-slice: 1
 .banner
     display: block
     width: 100%

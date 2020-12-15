@@ -14,6 +14,14 @@
     <div id="section0" class="container">
         <div class="row h-100">
             <img class="logo" src="/img/logo.svg" alt="logo">
+            <img class="line" src="/img/line.svg" alt="">
+            <div class="nav">
+                <a href="">介紹數位成癮</a>
+                <a href="">數位成癮之危害</a>
+                <a href="">不可逆影響</a>
+                <a href="">預防數位成癮</a>
+                <a href="">關於我們</a>
+            </div>
             <div class="banner">
                 <img class="noise" src="/img/noise.svg" alt="">
                 <img id="people1" src="/img/people.svg" alt="people">

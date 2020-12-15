@@ -41,8 +41,37 @@ h2 {
 }
 
 .logo {
-  width: 100%;
+  width: 5%;
   top: 2%;
+  left: -2%;
+}
+
+.line {
+  width: 23%;
+  top: 2%;
+}
+
+.nav {
+  position: absolute;
+  right: 0%;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 35px 20px 15px 20px;
+  transform: scale(1, 1.12);
+  letter-spacing: 4px;
+  color: #243E36;
+  font-size: 18px;
+  border-bottom: solid 1.5px #0F3480;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  border-bottom: solid 2px transparent;
+  border-image-slice: 1;
 }
 
 .banner {
