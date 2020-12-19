@@ -508,6 +508,12 @@ h2 {
 
 #title-3 {
   width: 45%;
+  left: 0;
+  margin: 5% 0%;
+}
+
+#title-4 {
+  width: 45%;
   left: 50%;
   margin: 5% 0%;
   transform: translateX(-50%);
@@ -847,24 +853,62 @@ h2 {
 #section6,
 #section7,
 #section8,
-#section9 {
+#section9,
+#section10 {
   transition-duration: 1.2s;
 }
 
-#section1 .row,
-#section2 .row,
-#section3 .row,
-#section4 .row,
-#section5 .row,
-#section6 .row,
-#section7 .row,
-#section8 .row,
-#section9 .row {
+#section1 > .row,
+#section2 > .row,
+#section3 > .row,
+#section4 > .row,
+#section5 > .row,
+#section6 > .row,
+#section7 > .row,
+#section8 > .row,
+#section9 > .row,
+#section10 > .row {
   display: none;
 }
 
 .row {
   transition-duration: 1s;
+}
+
+.tech-slideshow {
+  height: 100px;
+  max-width: 1140px;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  background: url(/img/marquee.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200%;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover-1 {
+  opacity: 1;
+  -webkit-animation: moveSlideshow 7s linear infinite;
+          animation: moveSlideshow 7s linear infinite;
+}
+
+@-webkit-keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateX(-50.5%);
+  }
+}
+
+@keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateX(-50.5%);
+  }
 }
 
 #clock {

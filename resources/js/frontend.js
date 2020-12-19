@@ -3,7 +3,7 @@ let visible = 0;
 
 document.body.onmousewheel = function (e) {
     diraction = e.deltaY;
-    if (diraction>0 && visible<9) {
+    if (diraction>0 && visible<10) {
         $('#section'+ visible).css('height', '0%').children('div').css('display', 'none');
         visible +=1;
         $('#section'+ visible).css('height', '101%').children('div').css('display', 'flex');
