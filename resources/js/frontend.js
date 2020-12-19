@@ -31,13 +31,9 @@
     });
 
     changeVisible = function (page) {
-        console.log("page:"+page);
-        console.log("visible:"+visible);
-
         closeVisiblePage(visible);
         visible = page;
         openVisiblePage(visible);
-
     };
 
 

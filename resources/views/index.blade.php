@@ -13,7 +13,9 @@
 <body>
     <div id="section0" class="container">
         <div class="row h-100">
-            <img class="logo" src="/img/logo.svg" alt="logo">
+            <a class="logo" href="/">
+                <img src="/img/logo.svg" alt="logo">
+            </a>
             <img class="line" src="/img/line.svg" alt="">
             <div class="nav">
                 <a onclick="changeVisible(1)">介紹數位成癮</a>
