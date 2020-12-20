@@ -11,7 +11,7 @@
 
     document.body.onmousewheel = function (e) {
         diraction = e.deltaY;
-        if (diraction>0 && visible<10) {
+        if (diraction>0 && visible<11) {
             closeVisiblePage(visible);
             visible +=1;
             openVisiblePage(visible);
