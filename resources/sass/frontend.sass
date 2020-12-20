@@ -28,6 +28,9 @@ h3
     font-size: $font_size*1.7
 h4
     font-size: $font_size*1.5
+h5
+    font-weight: bold
+    transform: scale(1, 1.12)
 p
     font-size: $font_size*1.5
     transform: scale(1, 1.12)
@@ -276,10 +279,6 @@ p
     line-height: 32px
     letter-spacing: 4px
     transform: scale(1, 1.12)
-.text-1
-    margin-left: 2%
-.text-7
-    padding: 2% 2% 2% 5%!important
 #title-1
     margin: 5% 0% 0% 5%
     background-color: $color_title
@@ -297,6 +296,11 @@ p
 #title-7
     width: 60%
     margin: 10% 5% 3% 5%
+#title-8
+    width: 450px
+    margin-top: 5%
+    left: 50%
+    transform: translateX(-50%)
 #title-7-1
     width: 20%
     margin: 5% 0% 0% 5%
@@ -308,6 +312,8 @@ p
     left: 50%
     margin: 5% 0%
     transform: translateX(-50%)
+#text-1
+    margin-left: 2%
 #text-3
     padding-top: 50px
 #text-5
@@ -316,9 +322,13 @@ p
     animation: opacity-in 1s 1.5s forwards
 #text-6
     padding-left: 20%
-#text-4-2, #text-7, #text-8
+#text-8
+    padding: 3% 0%
+#text-4-2, #text-10
     text-align: center
     line-height: 36px
+.text-9
+    padding: 2% 2% 2% 5%!important
 
 // 預留空間
 .effect
@@ -570,13 +580,15 @@ p
             opacity: 1
             width: 170px
 
-#arrow-5
+#arrow-5, #arrow-7
     opacity: 0
     position: absolute
     width: 50px
     right: 20%
     top: -30%
     animation: arrow-in 1s 0.5s forwards
+#arrow-7
+    left: 10%
 @keyframes arrow-in
     0%
         opacity: 0
