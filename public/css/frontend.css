@@ -26,6 +26,12 @@ h2 {
   font-weight: bold;
 }
 
+p {
+  font-size: 18px;
+  transform: scale(1, 1.12);
+  color: #333;
+}
+
 .Container {
   margin-right: auto;
   margin-left: auto;
@@ -492,6 +498,10 @@ h2 {
   transform: scale(1, 1.12);
 }
 
+.text-1 {
+  margin-left: 2%;
+}
+
 .text-7 {
   padding: 2% 2% 2% 5% !important;
 }
@@ -502,21 +512,25 @@ h2 {
 }
 
 #title-2 {
-  margin: 5% 0% 0% 5%;
+  margin: 2% 0% 0% 5%;
   background-color: #0F3480;
 }
 
 #title-3 {
   width: 45%;
   left: 0;
-  margin: 5% 0%;
+  top: 30px;
+  margin: 7% 0%;
 }
 
 #title-4 {
   width: 45%;
-  left: 50%;
-  margin: 5% 0%;
-  transform: translateX(-50%);
+  margin: 10% 5% 3% 5%;
+}
+
+#title-6 {
+  width: 60%;
+  margin: 10% 5% 3% 5%;
 }
 
 #title-7-1 {
@@ -537,12 +551,14 @@ h2 {
 }
 
 #text-3 {
-  text-align: center;
-  line-height: 36px;
+  padding-top: 0;
+}
+
+#text-5 {
+  right: -25%;
 }
 
 #text-4-2,
-#text-5,
 #text-6,
 #text-8 {
   text-align: center;
@@ -559,7 +575,8 @@ h2 {
 #gif-1 {
   width: 40%;
   float: right;
-  margin: 0% -7% 0% 5%;
+  right: -15%;
+  margin: -15% -7% 0% 25%;
 }
 
 #gif-2 {
@@ -643,7 +660,7 @@ h2 {
 }
 
 .circle-1 {
-  left: -10%;
+  left: -15%;
   top: 50%;
 }
 
@@ -781,6 +798,8 @@ h2 {
 #plaint {
   width: 3%;
   position: absolute;
+  left: 7%;
+  bottom: 10%;
 }
 
 #svg-1 {
@@ -877,8 +896,11 @@ h2 {
 
 .tech-slideshow {
   height: 100px;
-  max-width: 1140px;
-  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 2% 0%;
+  position: absolute;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
 }
@@ -901,13 +923,13 @@ h2 {
 
 @-webkit-keyframes moveSlideshow {
   100% {
-    -webkit-transform: translateX(-50.5%);
+    -webkit-transform: translateX(-38.1%);
   }
 }
 
 @keyframes moveSlideshow {
   100% {
-    -webkit-transform: translateX(-50.5%);
+    -webkit-transform: translateX(-38.1%);
   }
 }
 
@@ -916,7 +938,29 @@ h2 {
   position: absolute;
   opacity: 0.5;
   top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.roatate-img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+}
+
+.roatate-img .center {
+  width: 150px;
+  position: absolute;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.roatate-img .route {
+  width: 200px;
+  -webkit-animation: rotate 10s linear infinite;
+          animation: rotate 10s linear infinite;
 }
 

@@ -19,8 +19,8 @@
             <img class="line" src="/img/line.svg" alt="">
             <div class="nav">
                 <a onclick="changeVisible(1)">介紹數位成癮</a>
-                <a onclick="changeVisible(3)">數位成癮之危害</a>
-                <a onclick="changeVisible(5)">不可逆影響</a>
+                <a onclick="changeVisible(4)">數位成癮之危害</a>
+                <a onclick="changeVisible(6)">不可逆影響</a>
                 <a onclick="changeVisible(7)">預防數位成癮</a>
                 <a onclick="changeVisible(8)">關於我們</a>
             </div>
@@ -50,7 +50,9 @@
                 <div id="title-1" class="title-bg h-2">
                     <h2 class="title">您知道什麼是「數位成癮」嗎？</h2>
                 </div>
-                <h4 class="text">數位成癮，泛指過度使用數位內容相關的實體或非實體的產品，如：手機、平板、電腦、虛擬體感遊戲、智慧手錶、智慧助理…等。當使用者過度使用上述產品，而導致身心健康、個人學業、人際關係、家庭互動或工作表現等出現負面影響。這種不健康的使用習慣都稱之為「數位成癮」。</h4>
+                <h4 class="text text-1">數位成癮為數位使用普及後新興的名詞，最早提出「數位成癮症」說法的是紐約的醫生登伯格(Ivan Goldenberg)，它在1995年就率先使用「數位成癮症」一詞，匹茲堡大學教授楊恩(Kimberly Young)更建立了問卷，以判斷是否已有「數位成癮」的症狀。<br>
+                    1995年提出。最初，紐約的醫生登伯格(Ivan Goldenberg)出於模仿美國精神醫學學會（American Psychiatric Association，APA）的精神疾病診斷與統計手冊（DSM）的嚴格性和複雜性目的，提出數位成癮症的概念，並將其描述為具有以下症狀：「重要的社會和職業活動由於個人使用數位而減少乃至放棄」，「出現關於數位的幻想和夢」，以及「自願或非自願地出現手指輸入（鍵盤）行為」。
+                </h4>
                 <svg class="circle circle-1" viewbox="-50 -50 100 100">
                     <circle cx="0" cy="0" r="15">
                         <animate attributeName="r" dur="3s" values="15;30;15" repeatCount="indefinite"></animate>
@@ -90,30 +92,39 @@
     </div>
     <div id="section3" class="Container">
         <div class="row h-100 align-items-center justify-content-center">
+            <div class="tech-slideshow">
+                <div class="mover-1"></div>
+            </div>
             <div class="col-sm-9 col-12">
-                <div class="tech-slideshow">
-                    <div class="mover-1"></div>
+                <div id="title-3" class="title-bg h-2">
+                    <h2 class="title">造成數位成癮的常見因素</h2>
                 </div>
-                <div id="title-3" class="title-bg h-2 title-red">
-                    <h2 class="title">網路成癮會造成的影響</h2>
-                </div>
+                <h4 id="text-3" class="text">
+                   不當網路使用（problematic Internet use）<br>
+                   過度使用網路(Internet overuse) <br>
+                   不當電腦使用(problematic computer use) <br>
+                   強迫型的網路使用(compulsive Internet use) <br>
+                   網路濫用(Internet abuse) <br>
+                   有害的網路使用（harmful use of the Internet）<br>
+                   網路依賴（Internet dependency）也被用來指代網路成癮症。 <br>
+                </h4>
+                <p>#人際疏離  #依戀匿名交友  #犧牲睡眠上網  #頻繁注意網路訊息  #過度依賴網路功能</p>
             </div>
         </div>
     </div>
     <div id="section4" class="Container">
-        <div class="row h-100 align-items-center justify-content-center">
+        <div class="row h-100 justify-content-center">
             <img id="plaint" src="/img/plaint.svg" alt="plaint">
             <div class="col-sm-9 col-12">
                 <div id="title-4" class="title-bg h-2 title-red">
                     <h2 class="title">「數位成癮」是一種病嗎？</h2>
                 </div>
-                <h4 id="text-3" class="text">基本上「數位成癮」就跟所有成癮行為一樣，可能是生活壓力造成也可能是人際關係造成，成癮原因百百種。「數位成癮」通常會出現以下三種情況：<br>
-                    1.整天一直想<br>
-                    2.上手停不了<br>
-                    3.生活亂糟糟<br>
-                    若上述三種情況已經持續超過三個月以上，<br>
-                    就需要考慮去醫院尋求協助醫師的專業協助。
+                <h4 id="text-4" class="text">網路成癮為網路使用普及後新興的名詞，最早提出「網路成癮症」說法的是紐約的醫生登伯格(Ivan Goldenberg)，它在1995年就率先使用「網路成癮症」一詞，匹茲堡大學教授楊恩(Kimberly Young)更建立了問卷，以判斷是否已有「網路成癮」的症狀。
                 </h4>
+                <div class="roatate-img">
+                    <img class="center" src="/img/roatate-center.svg" alt="">
+                    <img class="route" src="/img/roatate.svg" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -156,12 +167,15 @@
                 {{-- <circle id="center" style="fill:#128A86; stroke: #C1EFED; stroke-width: 2px;" cx="100" cy="100" r="3"></circle> --}}
             </svg>
             <div class="col-sm-9 col-12">
-                <h4 class="text">目前僅有網路遊戲成癮被世界衛生組織在《國際疾病分類》<br>
-                    （ICD-11）正式列為精神疾病：「遊戲障礙症」（Gaming disorder），定義為一種遊戲行為模式（＂網路或電視遊戲＂）。要診斷出遊戲障礙，其行為必須具有嚴重性，導致個人、家庭社會、教育、職業或其他重要功能領域重大損害。通常至少會持續12個月。</h4>
-                <h4 id="text-4-2" class="text">遊戲障礙症的特徵為：<br>
-                    1.	玩遊戲的控制力受損<br>
-                    2.	生活以電玩為優先，忽略其他興趣和日常活動。<br>
-                    3.	即使造成負面影響，仍持續增加打電玩時間。
+                <h4 id="text-5" class="text">
+                    有時，以下的名稱也被用來指代網路成癮症：<br>
+                    1.過度使用網路(Internet overuse)<br>
+                    2.不當電腦使用(problematic computer use)<br>
+                    3.強迫型的網路使用(compulsive Internet use)<br>
+                    4.網路濫用(Internet abuse)<br>
+                    5.有害的網路使用（harmful use of the Internet）<br>
+                    6.網路依賴（Internet dependency）
+
                 </h4>
             </div>
         </div>
@@ -170,7 +184,10 @@
         <div class="row h-100 align-items-center justify-content-center">
             <img id="questionMark" src="/img/questionMark.svg" alt="">
             <div class="col-sm-9 col-12">
-                <h4 id="text-5" class="text">「數位成癮」會造成什麼影響呢？<br>
+                <div id="title-6" class="title-bg h-2 title-red">
+                    <h2 class="title">「數位成癮」會造成什麼影響呢？</h2>
+                </div>
+                <h4 id="text-6" class="text">
                     每個人使用數位產品的目的和用途不一樣，因此成癮的原因也不盡相同，數位成癮帶來的影響大致可以分為層面身理和心理層面，例如：有些人因工作不得不長時間依賴手機，導致自己不時時刻刻關注通知就會渾身不舒服；有些人在現實中得不到關愛，而將情感投注在虛擬世界的交流。其中又以視力衰退、生活作息錯亂、無法專注、社交障礙、家庭溝通不良最為常見。
                 </h4>
             </div>
