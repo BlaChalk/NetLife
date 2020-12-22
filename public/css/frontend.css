@@ -146,6 +146,7 @@ p {
   border: solid 1px #333;
   background: #eeeeee;
   opacity: 0.7;
+  z-index: 1;
 }
 
 .banner .ybox__close::before {
@@ -1090,5 +1091,40 @@ p {
   position: absolute;
   left: -7%;
   top: 28%;
+}
+
+#line-vertical {
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  -webkit-animation: line-in 1s 0.7s forwards;
+          animation: line-in 1s 0.7s forwards;
+}
+
+@-webkit-keyframes line-in {
+  0% {
+    opacity: 0;
+    top: -20%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0%;
+  }
+}
+
+@keyframes line-in {
+  0% {
+    opacity: 0;
+    top: -20%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0%;
+  }
 }
 
